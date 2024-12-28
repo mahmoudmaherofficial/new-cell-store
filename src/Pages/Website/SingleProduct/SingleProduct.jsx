@@ -9,6 +9,7 @@ export default function SingleProduct() {
   useEffect(() => {
     const currentProduct = products.find((product) => product.id === parseInt(pId));
     setProduct(currentProduct);
+    document.title = `Cell Store - ${currentProduct.name}`;
   }, [pId]);
   return (
     <div id="single-product">
