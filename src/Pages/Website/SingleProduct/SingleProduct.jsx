@@ -18,7 +18,7 @@ export default function SingleProduct() {
           <div className="col-md-6 col-12 text-center">
             <img src={product.image} alt={product.name} className="img-fluid h-100" />
           </div>
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12 mt-4 mt-md-0">
             <h2 className="text-primary">{product.name}</h2>
             <p className="text-muted">
               <strong>Brand:</strong> {product.brand}
