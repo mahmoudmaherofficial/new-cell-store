@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 export default function SingleProduct() {
   const [product, setProduct] = useState({});
   const { id: pId } = useParams();
+  const width = window.innerWidth;
   useEffect(() => {
     const currentProduct = products.find((product) => product.id === parseInt(pId));
     setProduct(currentProduct);
@@ -15,7 +16,7 @@ export default function SingleProduct() {
     <div id="single-product">
       <Container>
         <div className="row py-5">
-          <div className="col-md-6 col-12 text-center">
+          <div className="col-md-6 col-12 text-center" style={{ height: width < 768 ? '300px' : '200px' }}>
             <img src={product.image} alt={product.name} className="img-fluid h-100" />
           </div>
           <div className="col-md-6 col-12 mt-4 mt-md-0">
