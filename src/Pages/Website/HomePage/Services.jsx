@@ -3,9 +3,10 @@ import SpecialHeading from "../../../Components/SpecialHeading/SpecialHeading";
 import { services } from "../../../Data/services";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Services() {
+// eslint-disable-next-line react/prop-types
+export default function Services({spikes}) {
   return (
-    <div id="services" className="py-5 spikes position-relative">
+    <div id="services" className={`py-5 position-relative ${spikes ? 'spikes' : ''}`}>
       <SpecialHeading title={'services'} />
       <Container>
         <div className="row">

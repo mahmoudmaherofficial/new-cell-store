@@ -17,7 +17,7 @@ export default function HomePage() {
           </div>
         </Container>
       </div>
-      <Services />
+      <Services spikes/>
       <Products />
       <About />
       <Contact />
