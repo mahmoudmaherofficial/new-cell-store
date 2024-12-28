@@ -1,0 +1,97 @@
+#nav-bar {
+  background-color: #fff;
+  border-radius: 0 0 70px 70px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  position: relative;
+  z-index: 999;
+}
+#nav-bar #logo {
+  width: 150px;
+}
+#nav-bar #nav-links .link {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: 0.3s ease-in-out;
+}
+#nav-bar #nav-links .link:hover, #nav-bar #nav-links .link.active {
+  background-color: var(--red);
+  color: var(--white);
+}
+#nav-bar label {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  cursor: pointer;
+}
+#nav-bar label span {
+  background: #000;
+  border-radius: 10px;
+  height: 3px;
+  margin: 3px 0;
+  transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+#nav-bar span:nth-of-type(1) {
+  width: 50%;
+}
+#nav-bar span:nth-of-type(2) {
+  width: 100%;
+}
+#nav-bar span:nth-of-type(3) {
+  width: 75%;
+}
+#nav-bar input[type=checkbox] {
+  display: none;
+}
+#nav-bar input[type=checkbox]:checked ~ span:nth-of-type(1) {
+  transform-origin: bottom;
+  transform: rotateZ(45deg) translate(8px, 0px);
+}
+#nav-bar input[type=checkbox]:checked ~ span:nth-of-type(2) {
+  transform-origin: top;
+  transform: rotateZ(-45deg) translate(1px, 5px);
+}
+#nav-bar input[type=checkbox]:checked ~ span:nth-of-type(3) {
+  transform-origin: bottom;
+  width: 50%;
+  transform: translate(16px, -2px) rotateZ(45deg);
+}
+#nav-bar #menu {
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+#nav-bar #menu .link {
+  box-sizing: border-box;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+#nav-bar #menu .link:hover, #nav-bar #menu .link.active {
+  background-color: var(--red);
+  color: var(--white);
+}
+@media (max-width: 767px) {
+  #nav-bar {
+    border-radius: 0 0 30px 30px;
+  }
+  #nav-bar #logo {
+    width: 150px;
+  }
+}
+
+#menu-shade {
+  background-color: rgba(0, 0, 0, 0.5176470588);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  transition: 0.3s ease-in-out;
+}/*# sourceMappingURL=NavBar.css.map */

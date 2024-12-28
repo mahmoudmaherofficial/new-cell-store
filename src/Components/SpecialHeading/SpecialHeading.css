@@ -1,0 +1,31 @@
+.special-heading {
+  margin: auto auto 80px;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  font-size: 42px;
+  cursor: default;
+  text-transform: capitalize;
+}
+.special-heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+}
+.special-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 80%;
+  height: 4px;
+  background-color: var(--red);
+  transition: 0.3s ease-in-out;
+}
+.special-heading:hover::after {
+  width: 100%;
+}/*# sourceMappingURL=SpecialHeading.css.map */
