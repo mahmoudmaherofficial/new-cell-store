@@ -4,7 +4,7 @@ import logo from '../../../assets/logo.png';
 export default function About() {
   return (
     <div id="about" className="py-5 spikes position-relative">
-      <Container className="d-flex flex-column flex-md-row gap-5 text-center text-md-start">
+      <Container className="d-flex flex-column align-items-center flex-md-row gap-5 text-center text-md-start">
         <div className="image">
           <img src={logo} alt="Cell Store Logo" />
         </div>
