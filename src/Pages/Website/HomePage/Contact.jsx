@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container } from 'react-bootstrap';
 
 export default function Contact() {
   return (
@@ -32,4 +32,4 @@ export default function Contact() {
       </Container>
     </div>
   );
-};
+}
