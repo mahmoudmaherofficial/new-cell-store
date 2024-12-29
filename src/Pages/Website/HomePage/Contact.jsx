@@ -14,7 +14,7 @@ export default function Contact() {
           </p>
           <p className="email text-muted">
             <strong>Email:</strong>{' '}
-            <a href="mailto:" className="text-decoration-none">
+            <a href="mailto:mahmoudmaherofficial@gmail.com" className="text-decoration-none">
               mahmoudmaherofficial@gmail.com
             </a>
           </p>
