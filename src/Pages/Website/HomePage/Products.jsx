@@ -53,7 +53,7 @@ export default function Products() {
                 <h3 className="name text-dark my-3" style={{ fontSize: '24px' }}>
                   {product.name}
                 </h3>
-                <p className="price text-primary fs-5 fw-bold m-0">{product.price}</p>
+                <p className="price text-primary fs-5 fw-bold m-0">{product.price} L.E</p>
               </div>
             </Link>
           ))}
