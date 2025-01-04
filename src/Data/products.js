@@ -139,7 +139,7 @@ export const products = [
   {
     id: 16,
     name: 'Realme 11 4G',
-    price: 9000,
+    price: 10099,
     image: realme114GImage,
     brand: 'Realme',
     description: 'An affordable phone with a 48MP camera, 128GB storage, and 4GB RAM.',
