@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="text-content">
           <h2 className="title fw-bold">Contact Us</h2>
           <p className="address text-muted">
-            <strong>Address:</strong> 12 Main Street, Cairo, Egypt
+            <strong>Address:</strong> 3 Alfeshawy Street - Sirs Allayan, Menofia, Egypt
           </p>
           <p className="phone text-muted">
             <strong>Phone:</strong> +201093931501
