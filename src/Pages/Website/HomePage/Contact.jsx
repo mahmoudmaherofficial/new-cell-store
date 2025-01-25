@@ -5,7 +5,7 @@ export default function Contact() {
     <div id="contact" className="py-5" style={{ backgroundColor: 'rgb(238, 238, 238)' }}>
       <Container className="d-flex flex-column flex-md-row justify-content-md-between align-items-center gap-3 text-center text-md-start">
         <div className="text-content">
-          <h2 className="title fw-bold">Contact Us</h2>
+          <h2 className="title fw-bold mb-4">Contact Us</h2>
           <p className="author text-muted">
             <strong>Author:</strong> Mahmoud Maher Alfeshawy
           </p>
