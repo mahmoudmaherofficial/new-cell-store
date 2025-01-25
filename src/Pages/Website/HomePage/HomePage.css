@@ -1,5 +1,6 @@
 #landing {
-  background: url("../../../assets/landing.jpg") fixed center/cover no-repeat;
+/*   background: url("../../../assets/landing.jpg") fixed center/cover no-repeat; */
+  background: url("../../../assets/download.webp") fixed center/cover no-repeat;
   min-height: 100vh;
   margin-top: -75px;
   padding-top: 75px;
